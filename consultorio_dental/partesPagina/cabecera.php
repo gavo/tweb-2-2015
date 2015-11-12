@@ -13,12 +13,12 @@
         <img src="img/logo.png">
     </header>
     <nav>  
-        <a href="<?php echo $categorias;?>">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="<?php echo $categorias;?>">Registrar Usuario</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="<?php echo $buscar;?>">Reservar Consulta</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="<?php echo $categorias;?>">Ver Citas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="<?php echo $buscar;?>">Atender Citas</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="<?php echo $host;?>">Iniciar Sesion</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="index.php"><b>Inicio</b></a>
+        <a href="registrarUsuario.php"><b>Registrar Usuario</b></a>
+        <a href="consultarReserva.php"><b>Reservar Consulta</b></a>
+        <a href="verCitas.php"><b>Ver Citas</b></a>
+        <a href="atenderCitas.php"><b>Atender Citas</b></a>
+        <a href="iniciarSesion.php"><b>Iniciar Sesion</b></a>
     </nav>
     <div id='cuerpo_pagina'>
     
