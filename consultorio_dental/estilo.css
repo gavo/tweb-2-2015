@@ -6,6 +6,67 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 	min-height:100%;
-	font-size:0px;
 	font-family:Arial;
 } 
+
+header{
+    text-align:center;
+    width:100%;
+}
+
+header>img{
+    width:80%;
+}
+
+nav{
+    width:98%;
+    min-height:24px;
+    margin-left:1%;
+    display:inline-block;
+    text-align:center;
+    border: solid 1px #003399;
+    border-radius:0.5em;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#09F;
+    height:auto;
+}
+
+nav>a{
+    text-decoration:none;
+    font-size:1.2em;
+    border-radius:0.5em;
+    padding:5px;
+    margin:5px;
+}
+
+nav>a:hover{
+    color:#44a;
+    background-color:#fff;
+}
+
+footer{
+    text-align:center;
+    display:inline-block;
+    margin-left:1%;
+    width:98%;
+    border: 1px solid #44A;
+    background-color:#09F;
+    border-radius:0.5em;
+}
+
+footer>h3{
+    text-align:center;
+    color:#009;
+}
+
+#cuerpo_pagina{
+    min-height:350px;
+    background-color:#EEE;
+    width:98%;
+    margin-left:1%;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius:0.5em;
+    border: solid 1px #003399;
+}
