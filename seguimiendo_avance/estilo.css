@@ -6,6 +6,94 @@ html, body {
 	margin: 0px;
 	padding: 0px;
 	min-height:100%;
-	font-size:0px;
 	font-family:Arial;
-} 
+}
+
+header{
+    text-align:center;
+    width:100%;
+}
+
+header>img{
+    width:100%;
+}
+
+nav{
+    width:18%;
+    float:left;
+    min-height:24px;
+    margin-left:1%;
+    display:inline-block;
+    text-align:center;
+    border: solid 1px #19479d;
+    border-radius:0.5em;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#19479d;
+    height:auto;
+}
+
+nav>a, nav>a:visited{
+    display:inline-block;
+    text-decoration:none;
+    font-size:1.2em;
+    border-radius:0.5em;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:5px;
+    color:#fff;
+    margin-top:5px;
+    margin-bottom:5px;
+    border:solid 1px;
+    width:80%;
+}
+
+nav>a:hover{
+    color:#07A;
+    background-color:#fff;
+}
+
+footer{
+    text-align:center;
+    display:inline-block;
+    margin-left:1%;
+    width:98%;
+    border: 1px solid #19479d;
+    background-color:#19479d;
+    border-radius:0.5em;
+}
+
+footer>h3{
+    text-align:center;
+    color:#fff;
+    font-size:1.5em;
+}
+
+#cuerpo_pagina{
+    float:left;
+    min-height:460px;
+    background-color:#EEE;
+    width:79.6%;
+    margin-left:0.3%;
+    margin-bottom:5px;
+    border-radius:0.5em;
+    border: solid 1px #19479d;
+    text-align:center;
+}
+
+#div_form{
+    width:350px;
+    display:inline-block;
+    text-align:right;
+    border: solid 1px #00F;
+    padding: 15px;
+    border-radius: 0.5em;
+}
+
+#div_form > form > input[type="submit"]{
+    width:80%;
+    margin-right:10%;
+    margin-top:10px;
+    cursor:pointer;
+}

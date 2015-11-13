@@ -15,7 +15,7 @@
     <nav>  
         <a href="index.php"><b>Inicio</b></a>
         <a href="registrarUsuario.php"><b>Registrar Usuario</b></a>
-        <a href="consultarReserva.php"><b>Reservar Consulta</b></a>
+        <a href="registrarCita.php"><b>Registrar Cita</b></a>
         <a href="verCitas.php"><b>Ver Citas</b></a>
         <a href="atenderCitas.php"><b>Atender Citas</b></a>
         <a href="iniciarSesion.php"><b>Iniciar Sesion</b></a>

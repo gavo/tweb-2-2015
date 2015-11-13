@@ -1,8 +1,7 @@
  <?php
     include('partesPagina/cabecera.php');
-?>
-    <h3>Página de Inicio</h3>
-<?php    
-    
+ ?>
+    <h1>Iniciar Sesion</h1>
+ <?php
     include('partesPagina/piePagina.php');
  ?>
