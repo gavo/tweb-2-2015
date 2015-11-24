@@ -23,13 +23,32 @@ nav{
     min-height:24px;
     margin-left:1%;
     display:inline-block;
-    text-align:center;
+    text-align:right;
     border: solid 1px #003399;
     border-radius:0.5em;
     padding-top:10px;
     padding-bottom:10px;
     background-color:#09F;
     height:auto;
+}
+
+#opcionesUsuario{
+    display:inline-block;
+    width:200px;
+}
+
+#opcionesUsuario a, div #opcionesUsuario A:visited{
+    text-decoration:none;
+    width:91%;
+    display:block;
+    padding:10px;
+    border: #07A solid 1px;
+    margin:3px;
+    border-radius:0.5em;
+    color: #fff;
+    background-color:#09f;
+    font-size:1.2em;
+    padding:5px;
 }
 
 nav>A, nav>A:visited{
@@ -49,6 +68,10 @@ nav>A, nav>A:visited{
 nav>a:hover{
     color:#07A;
     background-color:#fff;
+}
+
+#opcionesUsuario a:hover{
+    background-color:#18B;
 }
 
 footer{
@@ -76,4 +99,124 @@ footer>h3{
     border-radius:0.5em;
     border: solid 1px #003399;
     text-align:center;
+}
+
+#login, #opcionesUsuario{
+    position:absolute;
+    background-color:#CCC;
+    padding:10px;
+    border: 1px solid #44A;
+    right:0.5em;
+    border-radius:0.5em;
+    margin-top:10px;
+    display:none;
+    text-align:center;
+}
+
+#form_registro{
+    border: 1px solid #44A;
+    width:75%;
+    display:inline-block;
+    border-radius:0.5em;
+    padding:10px;
+    text-align:center;
+    margin:2px;
+}
+
+#sub_form_registro{
+    border: 1px solid #AAA;
+    background-color:#DFDFDF;
+    border-radius:0.5em;
+    margin-bottom:3px;
+    margin-top:3px;
+    float:left;
+    width:46%;
+    margin-left:1.8%;
+    margin-right:1.8%;
+}
+
+#sub_form_registro > input[type='text'], 
+#sub_form_registro > input[type='password'], 
+#sub_form_registro > select,
+#sub_form_registro > input[type='date'],
+#sub_form_registro > form > textarea{
+    width:75%;
+}
+
+#sub_form_registro>b{
+    margin-top:5px;
+    margin-bottom:5px;
+    display:inline-block;
+}
+
+#sub_form_registro>form>input[type='text']{
+    width:70%;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+input[type='submit']{
+    font-stretch:ultra-expanded;
+    cursor:pointer;
+}
+
+#form_registro > table, 
+#form_registro > #sub_form_registro> table{
+    width:100%;
+    text-align:left;
+    border:1px solid #44A;
+    padding:1px;
+    border-radius:0.3em;    
+}
+
+#form_registro > table tr th,
+#form_registro > #sub_form_registro> table tr th{
+    background-color:#CCC;
+    padding:5px;
+    border:1px solid #44A;
+    border-radius:0.3em;
+    text-align:center;
+}
+
+#form_registro > table tr td, 
+#form_registro > #sub_form_registro> table tr td{
+    background-color:#DDD;
+    padding:3px;
+    text-align:center;
+    border:1px solid #44A;
+    border-radius:0.3em;    
+}
+
+#form_registro > table tr th button, 
+#sub_form_registro> table tr th button{
+    width:100%;
+    cursor:pointer;
+}
+
+#error{    
+    color:#F00;    
+}
+
+#ok{
+    color:#060;
+}
+
+#img-load{
+    height:20px;
+}
+
+p{
+    width:90%;
+    text-align:justify;
+    padding:5%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+button{
+    cursor:pointer;
 }
